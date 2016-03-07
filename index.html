@@ -11,27 +11,7 @@
 
 <body>
     <div class="container post">
-        <div class="row">
-            <div class="col-md-6 post-title">
-                <h1>ESP8266 Button like <strong>Amazon Dash Button</strong></h1>
-                <p class="author"><strong>chaeplin</strong> <span class="text-muted">March 7 2016 </span></p>
-            </div>
-            <div class="col-md-6 col-md-offset-0 post-body">
-                <figure><img class="img-thumbnail" src="assets/img/FullSizeRender 5.jpg">
-                    <figcaption>ESP8266 button to turn on/off mqtt lamp</figcaption>
-                </figure>
-                <ul>
-                    <li>ESP.deepSleep(0) .sleep forever</li>
-                    <li>Using GPIO16 and NPN TR, reset is not permitted while device is running. GPIO16 is in HIGH state while in deepsleep. GPIO16 will go LOW when ESP wakes up(digitalwrite to LOW).</li>
-                    <li>I think a sensor output to RST(monostable flip) and other GPIO can be used for interrupt triggered wake up and GPIO event monitoring. </li>
-                </ul><img class="img-thumbnail" src="assets/img/npntr.png">
-                <p>Minimal version using one NPN TR and one resistor.</p><img class="img-thumbnail" src="assets/img/01.reset_switch_schem.png">
-                <p>Mono state flip flop version. ref : <a href="http://www.bowdenshobbycircuits.info/page9.htm" target="_blank">external link </a></p><img class="img-thumbnail" src="assets/img/FullSizeRender 2.jpg"><img class="img-thumbnail" src="assets/img/FullSizeRender 3.jpg">
-                <img
-                class="img-thumbnail" src="assets/img/FullSizeRender 4.jpg"><img class="img-thumbnail" src="assets/img/buttonmillis.png">
-                    <p>Using static ip and deepsleep, WiFI connection done less than 300ms.</p>
-            </div>
-        </div>
+           <a href="project-01-button.html">ESP8266 button</a>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
