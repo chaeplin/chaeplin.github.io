@@ -23,7 +23,8 @@
                 <ul>
                     <li>ESP.deepSleep(0) .sleep forever</li>
                     <li>Using GPIO16 and NPN TR, reset is not permitted while device is running. GPIO16 is in HIGH state while in deepsleep. GPIO16 will go LOW when ESP wakes up(digitalwrite to LOW).</li>
-                    <li>I think a sensor output to RST(monostable flip) and other GPIO can be used for interrupt triggered wake up and GPIO event monitoring. </li>
+                    <li>I think a sensor output to RST(monostable flip) and other GPIO can be used for interrupt triggered wake up and GPIO event monitoring. ---> <a href=https://github.com/chaeplin/esp8266_and_arduino/tree/master/_48-door-alarm-deepsleep>door alarm using gpio monitoring and deepsleep reset</a>
+                    </li>
                     <li>[<a href="https://youtu.be/LRKfs7d2prI" target="_blank">video 1</a>] 
                     [<a href="https://youtu.be/320WnNMFer0" target="_blank">video 2</a>][<a href="https://github.com/chaeplin/esp8266_and_arduino/tree/master/_15-esp8266-dash-deepsleep-reset">Source</a>]</li>
                 </ul>
